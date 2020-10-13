@@ -18,9 +18,9 @@ Therefore, this simple class aims to reduce lines of code for AML metric reporti
 
 ## It's actually very simple:
 
-1. Make sure you have an (AML Workspace)[https://docs.microsoft.com/en-us/azure/machine-learning/concept-workspace]
+1. Make sure you have an [AML Workspace](https://docs.microsoft.com/en-us/azure/machine-learning/concept-workspace)
 
-2. Make sure you have an (AppInsights resource)[https://docs.microsoft.com/en-us/azure/azure-monitor/app/create-new-resource]
+2. Make sure you have an [AppInsights resource](https://docs.microsoft.com/en-us/azure/azure-monitor/app/create-new-resource)
 
 3. Add the `condensed_binocular.py` script in your project. Don't forget to add the `.env` file and the `constants.py` file if feel like using them this way, and change accordingly.
 
@@ -29,6 +29,5 @@ Therefore, this simple class aims to reduce lines of code for AML metric reporti
 5. Wait until your experiment ran, and check if the values show up in both the AML Experiment as in AppInsights.
 
 6. PROFIT.
-
 
 💜 Not working as expected or nice little additions necessary? Pls lemme know. 💜
